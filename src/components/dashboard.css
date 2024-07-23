@@ -1,0 +1,6 @@
+@import url("../main.css");
+
+.dashboard {
+  max-width: var(--containerWidth);
+  margin: var(--gutter) auto;
+}

@@ -1,0 +1,9 @@
+:root {
+  --primary: #3eb489;
+  --primaryDark: #1e815d;
+  --primaryTextColor: #333;
+  --white: #fff;
+  --halfWhite: #f9f6f6f3s;
+  --containerWidth: 800px;
+  --gutter: 10px;
+}

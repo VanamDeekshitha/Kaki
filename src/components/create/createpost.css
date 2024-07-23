@@ -1,0 +1,47 @@
+@import url("../../main.css");
+.createbox {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.profile {
+  width: 50px;
+  height: 45px;
+  background-color: #1db23f;
+  color: #fff;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: var(--gutter);
+}
+.hidden-file-input {
+  display: none;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  cursor: pointer;
+  color: #007bff;
+  text-decoration: underline;
+  font-size: 32px;
+}
+
+.custom-file-upload:hover {
+  text-decoration: none;
+}
+
+.upload-icon {
+  display: inline-block;
+  cursor: pointer;
+  color: #007bff;
+  font-size: 24px;
+}
+
+.upload-icon:hover {
+  color: #0056b3;
+}
+.postactionContainer {
+  display: flex;
+}

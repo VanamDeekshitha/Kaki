@@ -1,0 +1,12 @@
+@import url("./main.css");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--halfWhite);
+  color: var(--primaryTextColor);
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

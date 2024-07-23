@@ -1,0 +1,28 @@
+@import url("./main.css");
+
+.textarea {
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  font-size: 15px;
+}
+.primaryBtn {
+  background-color: var(--primary);
+  color: var(--primaryTextColor);
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--gutter);
+}
+.primaryBtn:hover {
+  background-color: var(--primaryDark);
+  cursor: pointer;
+  color: var(--white);
+}
+.w100 {
+  width: 100%;
+}
