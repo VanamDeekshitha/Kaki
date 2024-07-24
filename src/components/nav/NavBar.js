@@ -5,8 +5,8 @@ const NavBar = () => {
     <div className="nav">
       {/* <img src={logo} alt="Logo" className="logo" width={50} /> */}
       <p>logo</p>
-      <h1>Kaki</h1>
-      <h1>hhjju</h1>
+      <h1>Kaki logo</h1>
+      
     </div>
   );
 };
