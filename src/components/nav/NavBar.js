@@ -1,9 +1,10 @@
 import "./navbar.css";
-import logo from "../../../public/assets/kakilogo.png";
+// import logo from "../../../public/assets/kakilogo.png";
 const NavBar = () => {
   return (
     <div className="nav">
-      <img src={logo} alt="Logo" className="logo" width={50} />
+      {/* <img src={logo} alt="Logo" className="logo" width={50} /> */}
+      <p>logo</p>
     </div>
   );
 };
