@@ -30,6 +30,8 @@ const Feed = ({ content }) => {
   return (
     <div className="feed">
       <div className="post">
+      <span className="username">{content?.username}</span>
+
         {content?.image && (
           <img
             src={URL.createObjectURL(content.image)}
@@ -45,6 +47,7 @@ const Feed = ({ content }) => {
           </div>
         ) : (
           <p>{text}</p>
+          
         )}
       </div>
       <div className="actions">

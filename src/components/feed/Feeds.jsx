@@ -1,9 +1,25 @@
+import { useEffect, React } from "react";
 import Feed from "./Feed";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchPostsRequest } from '../../data/actions/posts.actions';
 
 const Feeds = () => {
-  const posts = useSelector((state) => state.posts.posts);
+  const dispatch = useDispatch();
+  const { posts, loading, error } = useSelector(state => state.posts);
   console.log("posts", posts);
+
+  useEffect(() => {
+    dispatch(fetchPostsRequest());
+  }, [dispatch]);
+
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>Error: {error}</div>;
+  }
   return (
     <div className="feeder">
       {posts?.map((el) => (

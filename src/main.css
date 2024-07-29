@@ -7,3 +7,19 @@
   --containerWidth: 800px;
   --gutter: 10px;
 }
+
+/* layout */
+.d-flex{
+  display: flex;
+}
+.aic{
+  align-items: center;
+}
+.jcc{
+justify-content: center;
+}
+
+/* //cursor */
+.pointer{
+  cursor: pointer;
+}
