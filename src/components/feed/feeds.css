@@ -28,3 +28,17 @@
   flex-direction: column;
   align-items: center;
 }
+.actions button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.actions .selected::before {
+  color: red; /* Inside color of the icon */
+}
+
+.actions .unselected::before {
+  color: grey;
+}
