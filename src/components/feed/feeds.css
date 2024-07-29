@@ -42,3 +42,10 @@
 .actions .unselected::before {
   color: grey;
 }
+
+.username {
+  background-color: beige;
+  border-bottom: 1px var(--primary) dotted;
+  display: block;
+  width: 100%;
+}
