@@ -7,7 +7,7 @@ const Feeds = () => {
   return (
     <div className="feeder">
       {posts?.map((el) => (
-        <Feed content={el} />
+        <Feed  key={el.id} content={el} />
       ))}
     </div>
   );

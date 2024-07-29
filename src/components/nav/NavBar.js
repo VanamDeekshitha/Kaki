@@ -8,10 +8,11 @@ const NavBar = () => {
     <div className="nav">
       {/* <img src={logo} alt="Logo" className="logo" width={50} /> */}
     
-      <FontAwesomeIcon icon={faCrow} className="logo" size="2x" />
+      <FontAwesomeIcon icon={faCrow} className="logo" size="2x"  />
   <div>
       <Link  to="/home">Home</Link>
      <Link to="/about">About</Link>
+     <Link to="/bookmarks">Bookmark</Link>
      <Link to="/profile">Profile</Link>
      </div>
  
